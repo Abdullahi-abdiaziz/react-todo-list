@@ -1,0 +1,44 @@
+.header {
+    background-color: #0d0d0d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    position: relative
+}
+.newTaskForm {
+    display: flex;
+    position: absolute;
+    height: 54px;
+    width: 100%;
+    max-width: 736px;
+    gap: 8px;
+    padding: 0 1rem;
+    bottom: -27px;
+}
+.newTaskForm input {
+    height: 100%;
+    flex: 1;
+    color: #fff;
+    background-color: #262626;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    padding: 0 16px;
+    font-size: 16px;
+}
+.newTaskForm input::placeholder {
+    color: #808080;
+}
+.newTaskForm button {
+    height: 100%;
+    padding: 0 16px;
+    background-color: #1e6f9f;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 700;
+    font-size: 14px;
+}
