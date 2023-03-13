@@ -52,7 +52,7 @@ function App() {
     });
     setTasksAndSave(newTask);
   }
-
+  
   return (
     <>
       <Header onAddTask={addTask} />
