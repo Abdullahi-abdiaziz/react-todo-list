@@ -16,6 +16,7 @@ export function Header({ onAddTask }) {
     function onChangeTitle(event) {
         setTitle(event.target.value)
     }
+
     return (
         <header className={styles.header}>
             <img src={todoLogo} alt="" />
@@ -24,7 +25,7 @@ export function Header({ onAddTask }) {
                 <button>
                     create
                     <AiOutlinePlusCircle size={20}/>
-                    </button>
+                </button>
             </form>
         </header>
     )
